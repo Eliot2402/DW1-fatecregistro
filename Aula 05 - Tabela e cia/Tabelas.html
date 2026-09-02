@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+  </head>
+  <body>
+    <h1>Tabelinhas</h1>
+    <!-- Criando a estrutira mínima de uma tabela -->
+    <table border="10">
+      <tr>
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+        <td>Eloi</td>
+      </tr>
+      <tr>
+        <td>Dado 3</td>
+        <td>Dado 4</td>
+        <td>Felipe</td>
+      </tr>
+    </table>
+    <!-- Break line (quebra a linha) -->
+    <br /><br /><br />
+
+    <!-- Exemplo de tabela completa -->
+    <table border="5">
+      <caption>
+        Vendas do mês
+      </caption>
+      <!-- Cabeçalho da tabela -->
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <!-- Corpo da tabela -->
+      <tbody>
+        <!-- Linha 01 -->
+        <tr>
+          <!-- rowspan mescla as linhas -->
+          <td rowspan="2">Teclado</td>
+          <td>10</td>
+          <td>R$ 500,00</td>
+        </tr>
+        <!-- linha 02 -->
+        <tr>
+          <td>100</td>
+          <td>R$ 5000,00</td>
+        </tr>
+      </tbody>
+      <!-- Rodapé -->
+      <tfoot>
+        <tr>
+          <!-- colspan mescla as Colunas -->
+          <th colspan="2">Total:</th>
+          <td>R$ 5500,00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
