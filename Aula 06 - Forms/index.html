@@ -7,16 +7,44 @@
   </head>
   <body>
     <h1>formularios no html5</h1>
-    <form action="/cadastrar" method="post">
+    <form method="get">
       <label for="nome">insira seu nome:</label><br />
       <!-- input de texto -->
-      <input type="text" id="nome" placeholder="Ex: João" /><br />
+      <input name="nome" type="text" id="nome" placeholder="Ex: João" /><br /><br>
       <!-- input de e-mail -->
-       <label for="email">Insira seu email</label><br>
-      <input type="email" id="email" placeholder="Ex: João@gmail.com"/><br />
+      <label for="email">Insira seu email:</label><br />
+      <input name="email" type="email" id="email" placeholder="Ex: João@gmail.com" /><br /><br>
       <!-- input de senha -->
-       <label for="senha">Insira sua senha</label><br>
-      <input type="password" id="senha" placeholder="Ex:1234" />
+      <label for="senha">Insira sua senha:</label><br />
+      <input name="senha" type="password" id="senha" placeholder="Ex:1234" /><br>
+      <br /><br />
+      <input type="submit" value="Cadastrar" />
+      <input type="reset" value="Limpar" />
+    </form>
+    <br /><br />
+    <hr />
+    <h4>Outros Inputs:</h4>
+    <form action="/Cadastrar">
+      <label>quantidade:</label><br />
+      <input type="number" min="0" max="10" /><br /><br />
+
+      <label>data:</label><br />
+      <input type="date" /><br /><br />
+
+      <label>inserir arquivos:</label><br />
+      <input type="file" /><br /><br />
+
+      <label>Comentários:</label><br />
+      <textarea name="" id=""></textarea><br /><br />
+      <input type="hidden" name="IDproduto" value="9" />
+      <label>Cursos</label><br /><br />
+      <select name="Cursos">
+        <option value="1">Programação</option>
+        <option value="2">Design gráfico</option>
+        <option value="4">LEtras</option>
+        <option value="5">Curso</option>
+        <option value="6">Cursinho</option>
+      </select>
     </form>
   </body>
 </html>
