@@ -1,0 +1,29 @@
+/* Este é um arquivo de CSS externo */
+
+body {
+    background-color: aliceblue;
+    color: rgb(139, 0, 28);
+    font-family: 'Segoe UI';
+    /* Espaço interno */
+    padding: 20px;
+    /* Entrelinhamento (leading) */
+    line-height: 1.6;
+}
+h1{
+    color: rgb(139, 0, 28);
+    font-size: 32px;
+    text-align: center;
+    /* borda inferior */
+    border-bottom: 3px dashed rgb(139, 0, 28);
+    /* espaçamento inferior */
+    padding-bottom: 10px;
+}
+div.container{
+    background-color: rgb(47, 47, 71);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 50px 50px;
+    text-align: center;
+    align-self: center;
+    color: azure;
+}
